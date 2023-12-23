@@ -1,5 +1,9 @@
 # MOSTest
 
+## Caution
+
+This repository is copied from [chomeyama/MOSTest](https://github.com/chomeyama/MOSTest).
+
 ## Simple explanation of this opensource
 
 1. Create wav directory like the below example. Each set contains wav files and their file lists for the methods you want to compare. It's easier to understand if you actually browse the wav directory. The number of methods in each set does not have to be identical.
