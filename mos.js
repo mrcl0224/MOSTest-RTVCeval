@@ -46,20 +46,31 @@ function start_experiment() {
         you have to customize this part
         this is an example which enables each set
         includes different number of methods.
-    */
-    if (set_num == "1") {
-        method_paths.push(wav_dir + "set" + set_num + "/method1.list");
-        method_paths.push(wav_dir + "set" + set_num + "/method2.list");
-    } else if (set_num == "2") {
-        method_paths.push(wav_dir + "set" + set_num + "/method1.list");
-        method_paths.push(wav_dir + "set" + set_num + "/method2.list");
-        method_paths.push(wav_dir + "set" + set_num + "/method3.list");
-    }
+    // */
+    // if (set_num == "1") {
+    //     method_paths.push(wav_dir + "set" + set_num + "/method1.list");
+    //     method_paths.push(wav_dir + "set" + set_num + "/method2.list");
+    // } else if (set_num == "2") {
+    //     method_paths.push(wav_dir + "set" + set_num + "/method1.list");
+    //     method_paths.push(wav_dir + "set" + set_num + "/method2.list");
+    //     method_paths.push(wav_dir + "set" + set_num + "/method3.list");
+    // }
     /*
         or you can write simply as
     */
-    // method_paths.push(wav_dir + "set" + set_num + "/method1.list");
-    // method_paths.push(wav_dir + "set" + set_num + "/method2.list");
+        method_paths.push(wav_dir + "set" + set_num + "/natural.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_easy_before.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_easy_after.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_easy_after2nd.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_difficult_before.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_difficult_after.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_difficult_after2nd.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_easy_before.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_easy_after.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_easy_after2nd.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_difficult_before.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_difficult_after.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_difficult_after2nd.list");
     /*
         end
     */
