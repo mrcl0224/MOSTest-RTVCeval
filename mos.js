@@ -71,6 +71,18 @@ function start_experiment() {
         method_paths.push(wav_dir + "set" + set_num + "/firstrt_difficult_before.list");
         method_paths.push(wav_dir + "set" + set_num + "/firstrt_difficult_after.list");
         method_paths.push(wav_dir + "set" + set_num + "/firstrt_difficult_after2nd.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_free_easy_before.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_free_easy_after.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_free_easy_after2nd.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_free_difficult_before.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_free_difficult_after.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrec_free_difficult_after2nd.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_free_easy_before.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_free_easy_after.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_free_easy_after2nd.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_free_difficult_before.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_free_difficult_after.list");
+        method_paths.push(wav_dir + "set" + set_num + "/firstrt_free_difficult_after2nd.list");
     /*
         end
     */
